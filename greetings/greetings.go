@@ -9,5 +9,5 @@ func Hello(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("name cannot be empty")
 	}
-	return fmt.Sprintf("Hi %s, Welcome!", name), nil
+	return fmt.Sprintf("Hello %s, Welcome!", name), nil
 }
